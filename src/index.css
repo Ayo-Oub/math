@@ -25,12 +25,12 @@
   --lineHeight-lg: 1.75;
   --lineHeight-xl: 2;
   /* Colors */
-  --color-primary: #059b00;
-  --color-primary-dark: #046000;
-  --color-primary-light: #0ee006;
-  --color-secondary: #19debc;
-  --color-secondary-dark: #0f7c6a;
-  --color-secondary-light: #1fffda;
+  --color-primary: #278ef7;
+  --color-primary-dark: #175594;
+  --color-primary-light: #beddfd;
+  --color-secondary: #01a96f;
+  --color-secondary-dark: #01764e;
+  --color-secondary-light: #b3e5d4;
   --color-white: #fff;
   --color-light: #e6e6e6;
   --color-gray: #adb5bd;
@@ -47,7 +47,7 @@ html{
   box-sizing: border-box;
 }
 body{
-   font-family: "Open Sans", sans-serif;
+   font-family: "Fira Code", monospace;
    font-weight: var(--fontWeight-medium);
    line-height: var(--lineHeight-base);
    color: var(--color-dark);
@@ -58,24 +58,19 @@ h1,h2,h3,h4,h5,h6{
   color: var(--color-black);
 }
 h1{
-  font-size: var(--fontSize-4xl);
-}
-h2{
   font-size: var(--fontSize-3xl);
 }
-h3{
+h2{
   font-size: var(--fontSize-2xl);
 }
-h4{
+h3{
   font-size: var(--fontSize-xl);
+}
+h4{
+  font-size: var(--fontSize-lg);
 }
 p{
   font-size: var(--fontSize-lg);
-}
-a{
-  font-size: var(--fontSize-base);
-  text-decoration: none;
-  display: inline-block;
 }
 ul{
   list-style: none;

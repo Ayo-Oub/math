@@ -1,0 +1,37 @@
+.home-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 120rem;
+     margin: 0 auto;
+     padding: 2rem;
+     gap: 5rem;
+}
+.links-container{
+     display: flex;
+     gap: 1rem;
+     flex-direction: column;
+}
+.links{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+}
+.home-link{
+     background-color: var(--color-primary);
+     color: var(--color-primary-light);
+     padding: 1rem;
+     font-size: var(--fontSize-base);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+     transition: all 0.2s ease-in;
+}
+.home-link:hover, .home-link:active{
+     background-color: var(--color-primary-dark);
+     transform: scale(0.97);
+}
+.test{
+     align-self: flex-end;
+        background-color: var(--color-primary-dark);
+}
